@@ -52,6 +52,9 @@ Se utilizó la directiva @layer components para crear clases reutilizables que a
 .btn: Se utilizó para los botones primarios, asegurando un color de acento y un foco visible.
 
 .focus: Se utilizó para que la sección de navegación tuviera accesibilidad total. Permite a los usuarios navegar con el teclado usando la tecla Tab gracias al foco visible de alto contraste (focus:ring-2).
+
+<hr>
+
 🌙 3. Dark Mode
 La implementación del Dark Mode es robusta e interactiva, combinando CSS y JavaScript.
 
@@ -69,13 +72,13 @@ Se han incluido buenas prácticas de accesibilidad para mejorar la experiencia c
 
 Foco Visible (.focus, .btn): Uso de focus:ring-4 y focus:ring-2 para garantizar un contorno claro y de alto contraste al navegar con el teclado.
 
-Jerarquía Textual: Uso correcto de <h2> para los títulos de las secciones principales (Recomendaciones, Suscripción), evitando la duplicidad de <h1> y manteniendo una estructura semántica clara.
+Jerarquía Textual: Uso correcto de h2 para los títulos de las secciones principales (Recomendaciones, Suscripción), evitando la duplicidad de h1 y manteniendo una estructura semántica clara.
 
 Contraste de Color: La paleta OKLCH fue seleccionada buscando colores con luminancia controlada que mantengan un buen contraste en ambos temas (Claro y Oscuro).
 
 ARIA Attributes: Se usa aria-label en los enlaces de redes sociales y aria-pressed en el botón de toggle de tema para proporcionar contexto a los lectores de pantalla.
 
-color-scheme Meta Tag: Se usa <meta name="color-scheme" content="light dark" /> para optimizar la representación del tema en el sistema operativo.
+color-scheme Meta Tag: Se usa meta name="color-scheme" content="light dark" /> para optimizar la representación del tema en el sistema operativo.
 
 <hr>
 
@@ -91,26 +94,26 @@ Prueba de la responsividad en diferentes pantallas móviles.
 
 Primer modelo de la sección de perfil.
 
-<img width="838" height="1355" alt="image" src="https://github.com/user-attachments/assets/5a3dfb4f-3691-4814-a778-3d638faed6a6" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/5a3dfb4f-3691-4814-a778-3d638faed6a6" />
 
 Pruebas de la versión final de Perfil con código y responsividad.
 
-<img width="921" height="615" alt="image" src="https://github.com/user-attachments/assets/0046b83e-cdb1-4525-b171-627877157016" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/0046b83e-cdb1-4525-b171-627877157016" />
 
 Resultado final en pantallas grandes con tema oscuro y foco activo.
 
-<img width="921" height="483" alt="image" src="https://github.com/user-attachments/assets/7813216b-74ef-4f2a-ab39-0346cd91f0e4" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/7813216b-74ef-4f2a-ab39-0346cd91f0e4" />
 
 Resultado final en pantallas grandes con tema claro.
 
-<img width="921" height="491" alt="image" src="https://github.com/user-attachments/assets/6791d82e-0b53-4fc9-8d5b-ab097ec543a9" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/6791d82e-0b53-4fc9-8d5b-ab097ec543a9" />
 
 Vista de la aplicación en dispositivos pequeños con tema claro.
 
-<img width="664" height="1272" alt="image" src="https://github.com/user-attachments/assets/0bcab03f-f399-4e1e-8d2b-d964e8b5da8f" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/0bcab03f-f399-4e1e-8d2b-d964e8b5da8f" />
 
 Vista de la aplicación en dispositivos pequeños con tema oscuro y foco activo.
 
-<img width="466" height="822" alt="image" src="https://github.com/user-attachments/assets/14546c7c-198b-49c8-b6a4-2bf7beec1955" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/14546c7c-198b-49c8-b6a4-2bf7beec1955" />
 
 
